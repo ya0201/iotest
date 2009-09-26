@@ -3,7 +3,7 @@
 
 #define BLKSIZE_ERR_MSG		"block_size must be digit,eg. 1024,1k,1m,and so on\n"
 #define MODE_ERR_MSG		"mode must be digit\n"
-#define OPS_ERR_MSG		"operation must be r or w\n"
+#define OPS_ERR_MSG			"operation must be r or w\n"
 #define IOCNT_ERR_MSG		"io count must be digit\n"
 #define THRNUM_ERR_MSG		"thread num must be digit\n"
 #define TIME_ERR_MSG		"time must be digit\n"
@@ -100,7 +100,7 @@ static int log_fd;
 static void usage(int version)
 {
 	if (version) {
-		printf("iotest suite ver 1.4 2005\n");
+		printf("iotest suite ver 1.5 2005\n");
 	} else {
 		printf("Usage:\n");
 		printf("\t-b block_size\n");
