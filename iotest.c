@@ -493,7 +493,7 @@ int main(int argc,char **argv)
 #if 1
 	while (1)
 		pause();
-#elif	
+#else	
 	for (i=0; i < ioparm.thread_num; i++)
 		pthread_join(pt[i],NULL);
 #endif	
