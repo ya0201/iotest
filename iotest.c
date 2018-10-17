@@ -224,7 +224,7 @@ int iotest(int id)
 			gettimeofday(&tv1,0);
 		}
 
-		debug(2,"iobyte %d\n",iobyte);
+		debug(2,"iobyte %lu\n",iobyte);
 		
 		if (iobyte < 0) {
 			perror("io error:");
